@@ -41,3 +41,48 @@ collections:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Body", name: "body", widget: "markdown"}
+       - label: "Faq"
+        name: "faq"
+        file: "content/faq.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+       - label: "Testimonials"
+        name: "testimonials"
+        file: "content/testimonials.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+        - label: "portfolio-1"
+        name: "Portfolio"
+        file: "content/portfolio-1.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+        - label: "red-highlights"
+        name: "Red Highlights"
+        file: "content/red-highlights.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+        - label: "fashion-forward"
+        name: "Fashion Forward"
+        file: "content/fashion-forward.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+        - label: "blog"
+        name: "Blog"
+        file: "content/blog.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+        
+
+
