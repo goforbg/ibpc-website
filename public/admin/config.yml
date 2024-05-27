@@ -11,78 +11,75 @@ collections:
         name: "home"
         file: "content/home.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-          - label: 'Cats'
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Cats"
             name: "cats"
-            widget: list
+            widget: "list"
             fields:
-              - { label: "Name", name: "name", widget: "string"}
-              - { label: "Description", name: "description", widget: "text"}
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
       - label: "About"
         name: "about"
         file: "content/about.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Body", name: "body", widget: "markdown" }
       - label: "Price"
         name: "price"
         file: "content/price.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Body", name: "body", widget: "markdown" }
       - label: "Service Art"
         name: "service-art"
         file: "content/service-art.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-       - label: "Faq"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Faq"
         name: "faq"
         file: "content/faq.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-       - label: "Testimonials"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Testimonials"
         name: "testimonials"
         file: "content/testimonials.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-        - label: "portfolio-1"
-        name: "Portfolio"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Portfolio"
+        name: "portfolio"
         file: "content/portfolio-1.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-        - label: "red-highlights"
-        name: "Red Highlights"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Red Highlights"
+        name: "red-highlights"
         file: "content/red-highlights.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-        - label: "fashion-forward"
-        name: "Fashion Forward"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Fashion Forward"
+        name: "fashion-forward"
         file: "content/fashion-forward.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-        - label: "blog"
-        name: "Blog"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Blog"
+        name: "blog"
         file: "content/blog.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-        
-
-
+          - { label: "Body", name: "body", widget: "markdown" }
