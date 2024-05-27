@@ -7,16 +7,37 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+      - label: "Home"
+        name: "home"
+        file: "content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+          - label: 'Cats'
+            name: "cats"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string"}
+              - { label: "Description", name: "description", widget: "text"}
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+      - label: "Price"
+        name: "price"
+        file: "content/price.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
+      - label: "Service Art"
+        name: "service-art"
+        file: "content/service-art.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown"}
