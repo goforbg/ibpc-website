@@ -1,4 +1,3 @@
-alert("Hello World");
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;

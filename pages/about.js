@@ -1,1025 +1,702 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
-
-      <>
-  <meta charSet="utf-8" />
-  <title>Loti - Webflow HTML website template</title>
-  <meta content="Loti - Webflow HTML website template" property="og:title" />
-  <meta
-    content="Loti - Webflow HTML website template"
-    property="twitter:title"
-  />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <meta content="Webflow" name="generator" />
-  <link rel="stylesheet" href="./assets/css/global.css" />
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        '\n      @media (min-width: 992px) {\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="e0aa1eb3-10e0-5e88-a7c0-868f1999d86c"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f4ce3d7d-a14a-27f3-e73c-b1cdad93096a"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f939a47b-08d9-4f31-3fc5-55af3fda55bc"] {\n          opacity: 0;\n        }\n      }\n      @media (max-width: 991px) and (min-width: 768px) {\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="e0aa1eb3-10e0-5e88-a7c0-868f1999d86c"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f4ce3d7d-a14a-27f3-e73c-b1cdad93096a"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f939a47b-08d9-4f31-3fc5-55af3fda55bc"] {\n          opacity: 0;\n        }\n      }\n      @media (max-width: 767px) and (min-width: 480px) {\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f4ce3d7d-a14a-27f3-e73c-b1cdad93096a"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="e0aa1eb3-10e0-5e88-a7c0-868f1999d86c"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f939a47b-08d9-4f31-3fc5-55af3fda55bc"] {\n          opacity: 0;\n        }\n      }\n      @media (max-width: 479px) {\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f4ce3d7d-a14a-27f3-e73c-b1cdad93096a"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="e0aa1eb3-10e0-5e88-a7c0-868f1999d86c"] {\n          opacity: 0;\n        }\n        html.w-mod-js:not(.w-mod-ix)\n          [data-w-id="f939a47b-08d9-4f31-3fc5-55af3fda55bc"] {\n          opacity: 0;\n        }\n      }\n    '
-    }}
-  />
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link
-    href="https://fonts.gstatic.com"
-    rel="preconnect"
-    crossOrigin="anonymous"
-  />
-  <link
-    href="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65c356cb887a9c5cfdff7607_Loti%20Logo%20Favicon.png"
-    rel="shortcut icon"
-    type="image/x-icon"
-  />
-  <link
-    href="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65c5d632a01a14b103d283d4_Webclip%20(2).png"
-    rel="apple-touch-icon"
-  />
-  <div
-    data-animation="over-left"
-    className="navbar w-nav"
-    data-easing2="ease"
-    data-easing="ease"
-    data-collapse="medium"
-    data-w-id="abfcf9f2-279d-dc11-2d82-4b2872cc13b5"
-    role="banner"
-    data-duration={400}
-    data-doc-height={1}
-  >
-    <div className="navbar-container w-container">
-      <div className="nav-menu-wrapper">
-        <a href="/home-1" className="brand w-nav-brand">
-          <img
-            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65cc6cd7ea8cd9191f322fb7_Loti%20Logo%20Dark%20(3).svg"
-            loading="lazy"
-            width="Auto"
-            height={35}
-            alt="logo dark
-    "
-            className="logo-header"
-          />
-        </a>
-        <p className="navbar-text-location">Based in San Francisco</p>
-        <nav role="navigation" className="navbar-menu w-nav-menu">
-          <div className="tablet-menu-wrapper">
-            <a href="#" className="brand-tablet w-nav-brand">
-              <img
-                src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65cc6cad8792f0ced96056c3_Loti%20Logo%20Light%20(3).svg"
-                loading="lazy"
-                alt="Logo light
-    "
-                height={35}
-                className="logo-header"
-              />
-            </a>
-            <div className="close-menu-button w-nav-button">
-              <img
-                src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a6e5c1e8f5596f33c10021_close-btn.svg"
-                loading="lazy"
-                alt="icon"
-                className="nav-close-icon"
-              />
-            </div>
+    <main>
+      <div className="section about-us-banner">
+        <div className="w-layout-blockcontainer max-width-container w-container">
+          <div className="top-banner-block">
+            <h1
+              data-w-id="d9da9786-a78f-45ee-97d8-31e59aee5a37"
+              style={{ opacity: 1 }}
+              className="heading-banner"
+            >
+              We are more than creators
+              <span
+                data-w-id="f7308dcd-70eb-7510-cfcf-c8dba22f288d"
+                style={{ opacity: 1 }}
+                className="span-element first-item"
+              >
+                {" "}
+              </span>
+              <span
+                data-w-id="1788ec98-c1b7-f23b-4b75-ba179dd5c735"
+                style={{ opacity: 1 }}
+                className="span-element second-item"
+              >
+                {" "}
+              </span>
+              <span
+                data-w-id="0e2b785e-68f4-8467-7308-bbcf4c66a621"
+                style={{ opacity: 1 }}
+                className="span-element last-item"
+              >
+                {" "}
+              </span>
+              we are visionaries crafting digital experiences that transcend the
+              ordinary.
+            </h1>
           </div>
-          <div className="menu-wrapper">
-            <div
-              data-hover="true"
-              data-delay={0}
-              data-w-id="c5679051-beb2-82be-5052-c4003973f252"
-              className="navbar-dropdown w-dropdown"
+          <div className="bottom-banner-block">
+            <p
+              data-w-id="22a45f5e-faa6-a872-5019-edb5a7324e3c"
+              style={{ opacity: 1 }}
+              className="text-dark"
             >
-              <div className="navbar-dropdown-toggle w-dropdown-toggle">
-                <div className="nav-dropdown-arrow w-icon-dropdown-toggle" />
-                <p className="nav-item-title">
-                  Demos <span className="arrow-navbar"></span>
-                </p>
-              </div>
-              <nav className="nav-dropdown-list w-dropdown-list">
-                <div className="nav-dropdown-link-wrapper">
-                  <a
-                    href="/home-1"
-                    className="nav-dropdown-link w-dropdown-link"
-                  >
-                    <span className="nav-dropdown-dot"> </span>Home 1
-                  </a>
-                  <a
-                    href="/home-2"
-                    aria-current="page"
-                    className="nav-dropdown-link w-dropdown-link w--current"
-                  >
-                    <span className="nav-dropdown-dot"> </span>Home 2
-                  </a>
-                  <a
-                    href="/home-3"
-                    className="nav-dropdown-link w-dropdown-link"
-                  >
-                    <span className="nav-dropdown-dot"> </span>Home 3
-                  </a>
-                </div>
-              </nav>
-            </div>
-            <div
-              data-hover="true"
-              data-delay={0}
-              data-w-id="a25547d7-3a3f-ab05-7772-c09d779c90bc"
-              className="navbar-dropdown w-dropdown"
-            >
-              <div className="navbar-dropdown-toggle w-dropdown-toggle">
-                <div className="nav-dropdown-arrow w-icon-dropdown-toggle" />
-                <p className="nav-item-title">
-                  Agency <span className="arrow-navbar"></span>
-                </p>
-              </div>
-              <nav className="nav-dropdown-list w-dropdown-list">
-                <div className="nav-dropdown-link-wrapper">
-                  <a
-                    href="/about-us"
-                    className="nav-dropdown-link w-dropdown-link"
-                  >
-                    <span className="nav-dropdown-dot"> </span>About Us
-                  </a>
-                  <a
-                    href="/our-team"
-                    className="nav-dropdown-link w-dropdown-link"
-                  >
-                    <span className="nav-dropdown-dot"> </span>Our Team
-                  </a>
-                  <a
-                    href="/pricing"
-                    className="nav-dropdown-link w-dropdown-link"
-                  >
-                    <span className="nav-dropdown-dot"> </span>Pricing
-                  </a>
-                  <a
-                    href="/testimonials"
-                    className="nav-dropdown-link w-dropdown-link"
-                  >
-                    <span className="nav-dropdown-dot"> </span>Testimonials
-                  </a>
-                  <a href="/faq" className="nav-dropdown-link w-dropdown-link">
-                    <span className="nav-dropdown-dot"> </span>FAQ
-                  </a>
-                </div>
-              </nav>
-            </div>
-            <a href="/our-services-1" className="nav-link w-nav-link">
-              Services
-            </a>
-            <a href="/portfolio-1" className="nav-link w-nav-link">
-              Portfolio
-            </a>
-            <div
-              data-hover="true"
-              data-delay={0}
-              data-w-id="c5679051-beb2-82be-5052-c4003973f2a7"
-              className="navbar-dropdown w-dropdown"
-            >
-              <div className="navbar-dropdown-toggle w-dropdown-toggle">
-                <div className="nav-dropdown-arrow w-icon-dropdown-toggle" />
-                <p className="nav-item-title">
-                  All Pages <span className="arrow-navbar"></span>
-                </p>
-              </div>
-              <nav className="nav-dropdown-list megamenu w-dropdown-list">
-                <div className="nav-dropdown-list-column">
-                  <div className="nav-dropdown-link-wrapper">
-                    <a
-                      href="/home-1"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Home 1
-                    </a>
-                    <a
-                      href="/home-2"
-                      aria-current="page"
-                      className="nav-dropdown-link w-dropdown-link w--current"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Home 2
-                    </a>
-                    <a
-                      href="/home-3"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Home 3
-                    </a>
-                    <a
-                      href="/about-us"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>About Us
-                    </a>
-                    <a
-                      href="/our-team"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Our Team
-                    </a>
-                    <a
-                      href="/pricing"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Pricing
-                    </a>
-                  </div>
-                </div>
-                <div className="nav-dropdown-list-column">
-                  <div className="nav-dropdown-link-wrapper">
-                    <a
-                      href="/testimonials"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Testimonials
-                    </a>
-                    <a
-                      href="/faq"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>FAQ
-                    </a>
-                    <a
-                      href="/our-services-1"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Our Services 1
-                    </a>
-                    <a
-                      href="/our-services-2"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Our Services 2
-                    </a>
-                    <a
-                      href="/our-services-3"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Our Services 3
-                    </a>
-                    <div className="collection-list-wrapper w-dyn-list">
-                      <div role="list" className="w-dyn-items">
-                        <div role="listitem" className="w-dyn-item">
-                          <a
-                            href="/services/art"
-                            target="_blank"
-                            className="nav-dropdown-link w-dropdown-link"
-                          >
-                            <span className="nav-dropdown-dot"> </span>Service
-                            Details
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="nav-dropdown-list-column">
-                  <div className="nav-dropdown-link-wrapper">
-                    <a
-                      href="/portfolio-1"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Portfolio 1
-                    </a>
-                    <a
-                      href="/portfolio-2"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Portfolio 2
-                    </a>
-                    <a
-                      href="/portfolio-3"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Portfolio 3
-                    </a>
-                    <div className="collection-list-wrapper w-dyn-list">
-                      <div role="list" className="w-dyn-items">
-                        <div role="listitem" className="w-dyn-item">
-                          <a
-                            href="/projects/red-highlights"
-                            target="_blank"
-                            className="nav-dropdown-link w-dropdown-link"
-                          >
-                            <span className="nav-dropdown-dot"> </span>Portfolio
-                            Details
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <a
-                      href="/blog"
-                      className="nav-dropdown-link w-dropdown-link"
-                    >
-                      <span className="nav-dropdown-dot"> </span>Blog
-                    </a>
-                    <div className="collection-list-wrapper w-dyn-list">
-                      <div role="list" className="w-dyn-items">
-                        <div role="listitem" className="w-dyn-item">
-                          <a
-                            href="/blog-posts/fashion-forward-trends-in-creative-portfolio-design"
-                            target="_blank"
-                            className="nav-dropdown-link w-dropdown-link"
-                          >
-                            <span className="nav-dropdown-dot"> </span>Blog
-                            details
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </div>
-            <div className="button-nav-tablet">
-              <a href="/contact-us" className="nav-link last-child w-nav-link">
-                Contact Us
+              "Fueling success through innovation, one achievement at a time."
+            </p>
+            <div className="button-block-banner">
+              <a
+                href="#Portfolio-Section"
+                data-w-id="14b4ea6e-2ca6-f0c3-b1e3-cf1df3f0f18f"
+                style={{ opacity: 1 }}
+                className="banner-link-with-icon w-inline-block"
+              >
+                <div>Scroll for more</div>
+                <img
+                  src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b38becd223da06d075efa7_corner-right-down.svg"
+                  loading="lazy"
+                  style={{
+                    WebkitTransform:
+                      "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                  }}
+                  data-w-id="ca751179-ab97-8ef3-8e88-76d619a1d3a9"
+                  alt="Icon"
+                />
               </a>
             </div>
           </div>
-        </nav>
-        <div className="button-nav-desktop">
-          <a href="/contact-us" className="nav-link last-child w-nav-link">
-            Contact Us
-          </a>
         </div>
-        <div className="menu-button w-nav-button">
+      </div>
+
+    <div className="section without-top-spacing">
+    <div className="max-width-container w-container">
+      <div className="photos-wrapper section-bottom-spacing">
+        <img
+          className="photo-item"
+          src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b37229df16d465dce38add_Man%20in%20Glasses.webp"
+          alt="Image Person"
+          sizes="(max-width: 479px) 45vw, (max-width: 767px) 47vw, (max-width: 1919px) 31vw, 560px"
+          data-w-id="808cede6-25ba-ffcb-93f1-68966f2022b8"
+          id="w-node-_808cede6-25ba-ffcb-93f1-68966f2022b8-33c0ffb8"
+          loading="lazy"
+          srcSet="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b37229df16d465dce38add_Man%20in%20Glasses-p-500.webp 500w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b37229df16d465dce38add_Man%20in%20Glasses-p-800.webp 800w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b37229df16d465dce38add_Man%20in%20Glasses-p-1080.webp 1080w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b37229df16d465dce38add_Man%20in%20Glasses-p-1600.webp 1600w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b37229df16d465dce38add_Man%20in%20Glasses.webp 2400w"
+        />
+        <img
+          src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b133f3964d0dd7858486cd_Team.webp"
+          loading="lazy"
+          sizes="(max-width: 479px) 45vw, (max-width: 767px) 47vw, (max-width: 1919px) 31vw, 560px"
+          alt="Image Team"
+          data-w-id="af838de2-c7a1-4fa8-4420-dea35ae1e3a7"
+          srcSet="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b133f3964d0dd7858486cd_Team-p-500.webp 500w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b133f3964d0dd7858486cd_Team-p-800.webp 800w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b133f3964d0dd7858486cd_Team-p-1080.webp 1080w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b133f3964d0dd7858486cd_Team.webp 1920w"
+          className="photo-item"
+        />
+        <img
+          className="photo-item"
+          src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65af79204de40cb59bd884c3_Image%20girl.webp"
+          alt="Image Person"
+          style={{ opacity: 1 }}
+          sizes="(max-width: 479px) 45vw, (max-width: 767px) 47vw, (max-width: 1919px) 31vw, 560px"
+          data-w-id="2405f2d4-3d38-6138-7320-311f1386a564"
+          id="w-node-_2405f2d4-3d38-6138-7320-311f1386a564-33c0ffb8"
+          loading="lazy"
+          srcSet="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65af79204de40cb59bd884c3_Image%20girl-p-500.webp 500w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65af79204de40cb59bd884c3_Image%20girl-p-800.webp 800w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65af79204de40cb59bd884c3_Image%20girl-p-1080.webp 1080w, https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65af79204de40cb59bd884c3_Image%20girl.webp 1920w"
+        />
+      </div>
+      <article className="dialogue-wrapper">
+        <div
+          data-w-id="6638c0cc-9130-40f2-a7b4-ed53272b2bdd"
+          style={{ opacity: 1 }}
+          className="message-question"
+        >
           <img
-            src="https://assets-global.website-files.com/652e8894b6b4a09a2f4f1394/652e8894b6b4a09a2f4f1523_menu-btn.svg"
+            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a6e5c1e8f5596f33c0ffd0_Member-Photo-Close-up-6.jpg"
             loading="lazy"
-            alt=""
-            height={16}
-            className="image-burger"
+            alt="photo"
+            className="dialogue-image"
+          />
+          <div
+            data-w-id="09f93556-3e8f-c942-27c1-4bf3ae871285"
+            style={{ opacity: 1 }}
+            className="message-light"
+          >
+            <div className="text-message">What is Loti?</div>
+          </div>
+        </div>
+        <div
+          data-w-id="11ea3b46-7121-965f-0dcf-9a17f6060061"
+          style={{ opacity: 1 }}
+          className="message-answer"
+        >
+          <div
+            data-w-id="11ea3b46-7121-965f-0dcf-9a17f6060063"
+            style={{ opacity: 1 }}
+            className="message-primary"
+          >
+            <div className="text-message text-white">
+              Loti is not just a creative space; it's a boundless realm where
+              imagination takes flight. We're a convergence of innovation and
+              artistry, a haven for creators seeking to transcend boundaries and
+              redefine the digital landscape.
+            </div>
+          </div>
+          <img
+            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b3aa04fae5de8f8b83b3df_Loti%20Logo.svg"
+            loading="lazy"
+            alt="Logo"
+            className="dialogue-image"
           />
         </div>
-      </div>
-    </div>
-  </div>
-  <div className="banner-section home-2-banner">
-    <div className="w-layout-blockcontainer base-container w-container">
-      <div className="title-banner-wrapper-home-2">
-        <h1
-          data-w-id="8a659823-0d6c-ae32-7b3c-9442738877bc"
-          style={{ opacity: 0 }}
-        >
-          We specialize in the creation of distinctive digital odysseys that
-          leave a lasting impact.
-        </h1>
-        <a
-          href="/about-us"
-          data-w-id="87996365-cffc-c083-a8ab-ef6abf4b3027"
-          style={{ opacity: 0 }}
-          className="button-primary w-button"
-        >
-          About Loti<span className="span-image-arrow"> </span>
-        </a>
-      </div>
-      <div className="bottom-content-banner-wrapper">
         <div
-          data-w-id="78c3c57c-a7e6-25e3-4090-51b0816b6895"
-          style={{ opacity: 0 }}
-          className="image-banner-left"
-        />
-        <div
-          data-w-id="2f27bb40-56c4-6810-938b-d0495f6d29d6"
-          style={{ opacity: 0 }}
-          className="right-banner-block-home-2"
+          data-w-id="f44bf42a-6c96-3c57-def9-5f75f3b03361"
+          style={{ opacity: 1 }}
+          className="message-question"
         >
-          <h2 className="banner-heading-light">
-            Our expertise lies in crafting exceptional digital journeys that
-            captivate audiences, leaving an enduring impression.
-          </h2>
-          <a
-            href="/our-services-1"
-            className="link-with-icon-light w-inline-block"
-          >
-            <div>Read more</div>
-          </a>
-        </div>
-      </div>
-      <div className="counter-content-wrap">
-        <div
-          data-w-id="5d68f4a9-af74-c39a-7546-033e06c56c19"
-          style={{ opacity: 0 }}
-          className="section-subtitle mb-30"
-        >
-          <div className="subtitle-dot" />
-          <h6 className="subtitle">Why w agency?</h6>
-        </div>
-        <div className="flex-content-wrapper">
-          <div className="counter-wrapper-left">
-            <h2
-              id="provide-assistance"
-              data-w-id="5d68f4a9-af74-c39a-7546-033e06c56c1f"
-              style={{ opacity: 0 }}
-            >
-              Our specialty revolves around innovative, minimalist projects.
-            </h2>
-            <p
-              data-w-id="2d4aa1dd-095b-22b1-d8ae-f14c82d3e624"
-              style={{ opacity: 0 }}
-            >
-              Crafting innovative, sleek projects is our expertise. We
-              specialize in delivering minimalist designs that redefine the way
-              we engage with digital solutions. Our focus on innovation drives
-              our commitment to creating impactful, clean, and sophisticated
-              projects that stand out in their simplicity.
-            </p>
-          </div>
-          <p
-            data-w-id="47b07d50-4119-bbbc-3d18-3647fd70f2b3"
-            style={{ opacity: 0 }}
-            className="text-dark-right"
-          >
-            "Fueling success through innovation, one achievement at a time."
-          </p>
-        </div>
-        <div className="counter-wrapper">
+          <img
+            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a6e5c1e8f5596f33c0ffd0_Member-Photo-Close-up-6.jpg"
+            loading="lazy"
+            style={{ opacity: 1 }}
+            data-w-id="f44bf42a-6c96-3c57-def9-5f75f3b03362"
+            alt="photo"
+            className="dialogue-image"
+          />
           <div
-            data-w-id="e0aa1eb3-10e0-5e88-a7c0-868f1999d86c"
-            className="counter-grid-item first-child"
+            data-w-id="f44bf42a-6c96-3c57-def9-5f75f3b03363"
+            style={{ opacity: 1 }}
+            className="message-light"
           >
-            <div className="text-number">960+</div>
-            <p className="counter-description">Excellent works</p>
+            <div className="text-message">What services Loti offer?</div>
           </div>
-          <div
-            data-w-id="f4ce3d7d-a14a-27f3-e73c-b1cdad93096a"
-            className="counter-grid-item second-child"
-          >
-            <div>
-              <div className="text-number">1390+</div>
-              <p className="counter-description">Happy customers</p>
+        </div>
+        <div
+          data-w-id="b179ebec-a5aa-0731-7fdd-6bd35a5a2c17"
+          style={{ opacity: 1 }}
+          className="message-answer"
+        >
+          <div className="messages-wrapper">
+            <div
+              data-w-id="b29790e0-2af1-feb8-8cea-ed40d4c24de3"
+              style={{ opacity: 1 }}
+              className="message-primary round-item"
+            >
+              <div className="text-message text-white">Creative Design</div>
+            </div>
+            <div
+              data-w-id="ef3c04a5-78b2-4938-d689-ab84b69b8ca4"
+              style={{ opacity: 1 }}
+              className="message-primary"
+            >
+              <div className="text-message text-white">Digital Development</div>
+            </div>
+            <div
+              data-w-id="68a242e1-4655-36c2-2b19-a138b32d46d3"
+              style={{ opacity: 1 }}
+              className="message-primary"
+            >
+              <div className="text-message text-white">
+                Interactive Experiences
+              </div>
             </div>
           </div>
+          <img
+            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b3aa04fae5de8f8b83b3df_Loti%20Logo.svg"
+            loading="lazy"
+            alt="Logo"
+            className="dialogue-image"
+          />
+        </div>
+        <div
+          data-w-id="250e250a-171b-eca3-3196-d23d33bdd881"
+          style={{ opacity: 1 }}
+          className="message-question"
+        >
+          <img
+            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a6e5c1e8f5596f33c0ffd0_Member-Photo-Close-up-6.jpg"
+            loading="lazy"
+            alt="photo"
+            className="dialogue-image"
+          />
           <div
-            data-w-id="f939a47b-08d9-4f31-3fc5-55af3fda55bc"
-            className="counter-grid-item"
+            data-w-id="250e250a-171b-eca3-3196-d23d33bdd883"
+            style={{ opacity: 1 }}
+            className="message-light wide-block"
           >
-            <div>
-              <div className="text-number">14+</div>
-              <p className="counter-description">Successful years expierence</p>
+            <div className="text-message">
+              What digital experience or innovation are you most excited about
+              bringing to life, and how do you envision it impacting your
+              audience or industry?
             </div>
           </div>
-          <div
-            id="w-node-_8be506b7-b582-080a-a8f6-4cdd5a074b7d-33c10005"
-            data-w-id="8be506b7-b582-080a-a8f6-4cdd5a074b7d"
-            style={{ opacity: 0 }}
-            className="counter-grid-item last-child"
-          >
-            <div className="text-number">32</div>
-            <p className="counter-description">Awards won</p>
-          </div>
         </div>
-      </div>
-    </div>
-    <div className="gradient-figure-5" />
-  </div>
-  <section className="section">
-    <div className="w-layout-blockcontainer base-container w-container">
-      <div className="portfolio-title-wrap">
         <div
-          data-w-id="a3846ce5-5c18-37da-8d12-5476a4001b81"
-          style={{ opacity: 0 }}
-          className="section-subtitle mb-30"
+          data-w-id="226fd98d-ad2d-c929-d3b7-7a5d5caaf4be"
+          style={{ opacity: 1 }}
+          className="message-answer"
+        >
+          <div
+            data-w-id="226fd98d-ad2d-c929-d3b7-7a5d5caaf4bf"
+            style={{ opacity: 1 }}
+            className="message-primary"
+          >
+            <div className="text-message text-white">
+              We're thrilled about revolutionizing the way people interact with
+              educational content. Our vision is to create an immersive learning
+              platform that blends augmented reality and gamification, making
+              complex subjects engaging and accessible. <br />
+              <br />
+              By merging technology with education, we aim to inspire a new
+              generation of learners and transform traditional learning
+              experiences into captivating adventures.
+            </div>
+          </div>
+          <img
+            src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65b3aa04fae5de8f8b83b3df_Loti%20Logo.svg"
+            loading="lazy"
+            alt="Logo"
+            className="dialogue-image"
+          />
+        </div>
+      </article>
+    </div>
+    <div className="gradient-figure-9" />
+  </div>
+
+  <div id="Portfolio-Section" className="section without-top-spacing">
+    <div className="base-container w-container">
+      <div className="flex-vertical-gap-30">
+        <div
+          data-w-id="41436518-d7b1-b1c4-7565-b13661772752"
+          style={{ opacity: 1 }}
+          className="section-subtitle"
         >
           <div className="subtitle-dot" />
           <h6 className="subtitle">Portfolio</h6>
         </div>
-        <h2
-          id="provide-assistance"
-          data-w-id="a3846ce5-5c18-37da-8d12-5476a4001b87"
-          style={{ opacity: 0 }}
-          className="mb-50"
-        >
-          Loti stands as a contemporary, award-winning agency showcasing a
-          portfolio brimming with creative prowess.
-        </h2>
-        <a
-          href="/portfolio-1"
-          data-w-id="fa9798c6-5570-536f-2f18-6a7437e3078d"
-          style={{ opacity: 0 }}
-          className="button-primary w-button"
-        >
-          All Projects <span className="button-number">(24)</span>
-          <span className="span-image-arrow"> </span>
-        </a>
-      </div>
-      <div
-        data-w-id="fe773596-69a0-0ace-e6c9-ee2390aa3943"
-        style={{ opacity: 0 }}
-        className="portfolio-collection-wrapper"
-      >
-        <div className="left-collection-list-wrapper w-dyn-list">
-          <div role="list" className="portfolio-collection-list w-dyn-items">
-            <div role="listitem" className="w-dyn-item">
-              <div
-                data-w-id="440bee09-1394-1e7e-3c47-21c363ec3b51"
-                style={{ opacity: 0 }}
-                className="portfolion-collection-item"
-              >
-                <a
-                  href="/projects/red-highlights"
-                  className="portfolio-image-link w-inline-block"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bba70dc67879aa0da0f922_Services%20Image%206.png"
-                    alt="Portfolio Collection Image"
-                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 41vw, (max-width: 991px) 42vw, (max-width: 1279px) 44vw, (max-width: 1919px) 526.5px, 748.1953125px"
-                    srcSet="
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bba70dc67879aa0da0f922_Services%20Image%206-p-500.png 500w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bba70dc67879aa0da0f922_Services%20Image%206.png       600w
-                "
-                    className="portfolio-collection-image"
-                  />
-                </a>
-                <a
-                  href="/projects/red-highlights"
-                  className="portfolio-name-wrap w-inline-block"
-                >
-                  <h2 className="portfolio-item-name">Red highlights</h2>
-                  <div className="round-icon-with-arrow">
-                    <div className="arrow-red" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div role="listitem" className="w-dyn-item">
-              <div
-                data-w-id="440bee09-1394-1e7e-3c47-21c363ec3b51"
-                style={{ opacity: 0 }}
-                className="portfolion-collection-item"
-              >
-                <a
-                  href="/projects/senso"
-                  className="portfolio-image-link w-inline-block"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bba52d147058fd928bed5a_Project%20Image%205%201.png"
-                    alt="Portfolio Collection Image"
-                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 41vw, (max-width: 991px) 42vw, (max-width: 1279px) 44vw, (max-width: 1919px) 526.5px, 748.1953125px"
-                    srcSet="
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bba52d147058fd928bed5a_Project%20Image%205%201-p-500.png 500w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bba52d147058fd928bed5a_Project%20Image%205%201.png       600w
-                "
-                    className="portfolio-collection-image"
-                  />
-                </a>
-                <a
-                  href="/projects/senso"
-                  className="portfolio-name-wrap w-inline-block"
-                >
-                  <h2 className="portfolio-item-name">Senso</h2>
-                  <div className="round-icon-with-arrow">
-                    <div className="arrow-red" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div role="listitem" className="w-dyn-item">
-              <div
-                data-w-id="440bee09-1394-1e7e-3c47-21c363ec3b51"
-                style={{ opacity: 0 }}
-                className="portfolion-collection-item"
-              >
-                <a
-                  href="/projects/fifty-works"
-                  className="portfolio-image-link w-inline-block"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65afd97d713e5ad3f0990355_Product%20Image%205.png"
-                    alt="Portfolio Collection Image"
-                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 41vw, (max-width: 991px) 42vw, (max-width: 1279px) 44vw, (max-width: 1919px) 526.5px, 748.1953125px"
-                    srcSet="
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65afd97d713e5ad3f0990355_Product%20Image%205-p-500.png 500w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65afd97d713e5ad3f0990355_Product%20Image%205.png       600w
-                "
-                    className="portfolio-collection-image"
-                  />
-                </a>
-                <a
-                  href="/projects/fifty-works"
-                  className="portfolio-name-wrap w-inline-block"
-                >
-                  <h2 className="portfolio-item-name">Fifty Works</h2>
-                  <div className="round-icon-with-arrow">
-                    <div className="arrow-red" />
-                  </div>
-                </a>
-              </div>
-            </div>
+        <div className="top-wrapper">
+          <div
+            data-w-id="41436518-d7b1-b1c4-7565-b13661772757"
+            style={{ opacity: 1 }}
+            className="heading-wrapper"
+          >
+            <h2 id="provide-assistance">
+              Loti stands as a contemporary, award-winning agency showcasing a
+              portfolio brimming with creative prowess.
+            </h2>
           </div>
+          <a
+            href="/portfolio-1"
+            data-w-id="41436518-d7b1-b1c4-7565-b1366177275a"
+            style={{ opacity: 1 }}
+            className="button-primary w-button"
+          >
+            All Projects <span className="button-number">(24)</span>
+            <span className="span-image-arrow"> </span>
+          </a>
         </div>
-        <div className="right-collection-list-wrapper w-dyn-list">
-          <div role="list" className="portfolio-collection-list w-dyn-items">
-            <div role="listitem" className="w-dyn-item">
-              <div
-                data-w-id="262cd394-3c5a-838d-9f3c-c04c25c81142"
-                style={{ opacity: 0 }}
-                className="portfolion-collection-item"
-              >
-                <a
-                  href="/projects/evo-design"
-                  className="portfolio-image-link w-inline-block"
+      </div>
+      <div className="portfolio-list-wrapper w-dyn-list">
+        <div role="list" className="w-dyn-items">
+          <div role="listitem" className="w-dyn-item">
+            <a
+              data-w-id="8fa223d2-0a34-77e0-2fe1-78e318552ea5"
+              style={{ backgroundColor: "rgba(0,0,0,0)" }}
+              href="/projects/spark-wave"
+              className="portfolio-list-item w-inline-block"
+            >
+              <div className="portfolio-title-item-wrapper">
+                <div
+                  style={{
+                    color: "rgb(0,0,0)",
+                    WebkitTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  }}
+                  className="number-portfolio"
                 >
-                  <img
-                    loading="lazy"
-                    src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1).jpg"
-                    alt="Portfolio Collection Image"
-                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 41vw, (max-width: 991px) 42vw, (max-width: 1279px) 44vw, (max-width: 1919px) 526.5px, 748.1953125px"
-                    srcSet="
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1)-p-500.jpg   500w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1)-p-800.jpg   800w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1)-p-1080.jpg 1080w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1).jpg        1920w
-                "
-                    className="portfolio-collection-image"
-                  />
-                </a>
-                <a
-                  href="/projects/evo-design"
-                  className="portfolio-name-wrap w-inline-block"
+                  01
+                </div>
+                <h2
+                  style={{ color: "rgb(0,0,0)" }}
+                  className="project-item-name"
                 >
-                  <h2 className="portfolio-item-name">Evo Design</h2>
-                  <div className="round-icon-with-arrow">
-                    <div className="arrow-red" />
-                  </div>
-                </a>
+                  Spark Wave
+                </h2>
               </div>
-            </div>
-            <div role="listitem" className="w-dyn-item">
-              <div
-                data-w-id="262cd394-3c5a-838d-9f3c-c04c25c81142"
-                style={{ opacity: 0 }}
-                className="portfolion-collection-item"
-              >
-                <a
-                  href="/projects/lumina-craft"
-                  className="portfolio-image-link w-inline-block"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c35a514ce13172393ec52a_pexels-cottonbro-studio-10607969%20(1)%201%20(1).png"
-                    alt="Portfolio Collection Image"
-                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 41vw, (max-width: 991px) 42vw, (max-width: 1279px) 44vw, (max-width: 1919px) 526.5px, 748.1953125px"
-                    srcSet="
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c35a514ce13172393ec52a_pexels-cottonbro-studio-10607969%20(1)%201%20(1)-p-500.png 500w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c35a514ce13172393ec52a_pexels-cottonbro-studio-10607969%20(1)%201%20(1).png       600w
-                "
-                    className="portfolio-collection-image"
-                  />
-                </a>
-                <a
-                  href="/projects/lumina-craft"
-                  className="portfolio-name-wrap w-inline-block"
-                >
-                  <h2 className="portfolio-item-name">Lumina Craft</h2>
-                  <div className="round-icon-with-arrow">
-                    <div className="arrow-red" />
-                  </div>
-                </a>
+              <img
+                alt="Project Image"
+                loading="lazy"
+                style={{ opacity: 1 }}
+                src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae62f144da031e56135aeb_Product%20Image%202.png"
+                sizes="(max-width: 991px) 100vw, (max-width: 1279px) 150px, (max-width: 1439px) 180px, (max-width: 1919px) 200px, 280px"
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae62f144da031e56135aeb_Product%20Image%202-p-500.png 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae62f144da031e56135aeb_Product%20Image%202.png 600w"
+                className="portfolio-image"
+              />
+              <div className="round-icon-with-arrow mobile-right">
+                <div className="arrow-red" />
               </div>
-            </div>
-            <div role="listitem" className="w-dyn-item">
-              <div
-                data-w-id="262cd394-3c5a-838d-9f3c-c04c25c81142"
-                style={{ opacity: 0 }}
-                className="portfolion-collection-item"
-              >
-                <a
-                  href="/projects/creative-works-gallery"
-                  className="portfolio-image-link w-inline-block"
+            </a>
+          </div>
+          <div role="listitem" className="w-dyn-item">
+            <a
+              data-w-id="8fa223d2-0a34-77e0-2fe1-78e318552ea5"
+              style={{ backgroundColor: "rgba(0,0,0,0)" }}
+              href="/projects/visionary-studio-showcase"
+              className="portfolio-list-item w-inline-block"
+            >
+              <div className="portfolio-title-item-wrapper">
+                <div
+                  style={{
+                    color: "rgb(0,0,0)",
+                    WebkitTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  }}
+                  className="number-portfolio"
                 >
-                  <img
-                    loading="lazy"
-                    src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae6390e5c62959b8568264_Product%20Image%204.png"
-                    alt="Portfolio Collection Image"
-                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 41vw, (max-width: 991px) 42vw, (max-width: 1279px) 44vw, (max-width: 1919px) 526.5px, 748.1953125px"
-                    srcSet="
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae6390e5c62959b8568264_Product%20Image%204-p-500.png 500w,
-                  https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae6390e5c62959b8568264_Product%20Image%204.png       600w
-                "
-                    className="portfolio-collection-image"
-                  />
-                </a>
-                <a
-                  href="/projects/creative-works-gallery"
-                  className="portfolio-name-wrap w-inline-block"
+                  02
+                </div>
+                <h2
+                  style={{ color: "rgb(0,0,0)" }}
+                  className="project-item-name"
                 >
-                  <h2 className="portfolio-item-name">
-                    Creative Works Gallery
-                  </h2>
-                  <div className="round-icon-with-arrow">
-                    <div className="arrow-red" />
-                  </div>
-                </a>
+                  Visionary Studio Showcase
+                </h2>
               </div>
-            </div>
+              <img
+                alt="Project Image"
+                loading="lazy"
+                style={{ opacity: 1 }}
+                src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e367e3fcbb785ba27c1_pexels-cottonbro-studio-9634276%20(1).jpg"
+                sizes="(max-width: 991px) 100vw, (max-width: 1279px) 150px, (max-width: 1439px) 180px, (max-width: 1919px) 200px, 280px"
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e367e3fcbb785ba27c1_pexels-cottonbro-studio-9634276%20(1)-p-500.jpg 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e367e3fcbb785ba27c1_pexels-cottonbro-studio-9634276%20(1)-p-800.jpg 800w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e367e3fcbb785ba27c1_pexels-cottonbro-studio-9634276%20(1)-p-1080.jpg 1080w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e367e3fcbb785ba27c1_pexels-cottonbro-studio-9634276%20(1).jpg 1920w"
+                className="portfolio-image"
+              />
+              <div className="round-icon-with-arrow mobile-right">
+                <div className="arrow-red" />
+              </div>
+            </a>
+          </div>
+          <div role="listitem" className="w-dyn-item">
+            <a
+              data-w-id="8fa223d2-0a34-77e0-2fe1-78e318552ea5"
+              style={{ backgroundColor: "rgba(0,0,0,0)" }}
+              href="/projects/creative-works-gallery"
+              className="portfolio-list-item w-inline-block"
+            >
+              <div className="portfolio-title-item-wrapper">
+                <div
+                  style={{
+                    color: "rgb(0,0,0)",
+                    WebkitTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  }}
+                  className="number-portfolio"
+                >
+                  03
+                </div>
+                <h2
+                  style={{ color: "rgb(0,0,0)" }}
+                  className="project-item-name"
+                >
+                  Creative Works Gallery
+                </h2>
+              </div>
+              <img
+                alt="Project Image"
+                loading="lazy"
+                style={{ opacity: 1 }}
+                src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae6390e5c62959b8568264_Product%20Image%204.png"
+                sizes="(max-width: 991px) 100vw, (max-width: 1279px) 150px, (max-width: 1439px) 180px, (max-width: 1919px) 200px, 280px"
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae6390e5c62959b8568264_Product%20Image%204-p-500.png 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65ae6390e5c62959b8568264_Product%20Image%204.png 600w"
+                className="portfolio-image"
+              />
+              <div className="round-icon-with-arrow mobile-right">
+                <div className="arrow-red" />
+              </div>
+            </a>
+          </div>
+          <div role="listitem" className="w-dyn-item">
+            <a
+              data-w-id="8fa223d2-0a34-77e0-2fe1-78e318552ea5"
+              style={{ backgroundColor: "rgba(0,0,0,0)" }}
+              href="/projects/lumina-craft"
+              className="portfolio-list-item w-inline-block"
+            >
+              <div className="portfolio-title-item-wrapper">
+                <div
+                  style={{
+                    color: "rgb(0,0,0)",
+                    WebkitTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  }}
+                  className="number-portfolio"
+                >
+                  04
+                </div>
+                <h2
+                  style={{ color: "rgb(0,0,0)" }}
+                  className="project-item-name"
+                >
+                  Lumina Craft
+                </h2>
+              </div>
+              <img
+                alt="Project Image"
+                loading="lazy"
+                style={{ opacity: 1 }}
+                src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c35a514ce13172393ec52a_pexels-cottonbro-studio-10607969%20(1)%201%20(1).png"
+                sizes="(max-width: 991px) 100vw, (max-width: 1279px) 150px, (max-width: 1439px) 180px, (max-width: 1919px) 200px, 280px"
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c35a514ce13172393ec52a_pexels-cottonbro-studio-10607969%20(1)%201%20(1)-p-500.png 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c35a514ce13172393ec52a_pexels-cottonbro-studio-10607969%20(1)%201%20(1).png 600w"
+                className="portfolio-image"
+              />
+              <div className="round-icon-with-arrow mobile-right">
+                <div className="arrow-red" />
+              </div>
+            </a>
+          </div>
+          <div role="listitem" className="w-dyn-item">
+            <a
+              data-w-id="8fa223d2-0a34-77e0-2fe1-78e318552ea5"
+              style={{ backgroundColor: "rgba(0,0,0,0)" }}
+              href="/projects/evo-design"
+              className="portfolio-list-item w-inline-block"
+            >
+              <div className="portfolio-title-item-wrapper">
+                <div
+                  style={{
+                    color: "rgb(0,0,0)",
+                    WebkitTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  }}
+                  className="number-portfolio"
+                >
+                  05
+                </div>
+                <h2
+                  style={{ color: "rgb(0,0,0)" }}
+                  className="project-item-name"
+                >
+                  Evo Design
+                </h2>
+              </div>
+              <img
+                alt="Project Image"
+                loading="lazy"
+                style={{ opacity: 1 }}
+                src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1).jpg"
+                sizes="(max-width: 991px) 100vw, (max-width: 1279px) 150px, (max-width: 1439px) 180px, (max-width: 1919px) 200px, 280px"
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1)-p-500.jpg 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1)-p-800.jpg 800w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1)-p-1080.jpg 1080w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c09e8218fe345cd6065f3d_pexels-mikhail-nilov-9241778%20(1).jpg 1920w"
+                className="portfolio-image"
+              />
+              <div className="round-icon-with-arrow mobile-right">
+                <div className="arrow-red" />
+              </div>
+            </a>
+          </div>
+          <div role="listitem" className="w-dyn-item">
+            <a
+              data-w-id="8fa223d2-0a34-77e0-2fe1-78e318552ea5"
+              style={{ backgroundColor: "rgba(0,0,0,0)" }}
+              href="/projects/fifty-works"
+              className="portfolio-list-item w-inline-block"
+            >
+              <div className="portfolio-title-item-wrapper">
+                <div
+                  style={{
+                    color: "rgb(0,0,0)",
+                    WebkitTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    MozTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    msTransform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                    transform:
+                      "translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  }}
+                  className="number-portfolio"
+                >
+                  06
+                </div>
+                <h2
+                  style={{ color: "rgb(0,0,0)" }}
+                  className="project-item-name"
+                >
+                  Fifty Works
+                </h2>
+              </div>
+              <img
+                alt="Project Image"
+                loading="lazy"
+                style={{ opacity: 1 }}
+                src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65afd97d713e5ad3f0990355_Product%20Image%205.png"
+                sizes="(max-width: 991px) 100vw, (max-width: 1279px) 150px, (max-width: 1439px) 180px, (max-width: 1919px) 200px, 280px"
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65afd97d713e5ad3f0990355_Product%20Image%205-p-500.png 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65afd97d713e5ad3f0990355_Product%20Image%205.png 600w"
+                className="portfolio-image"
+              />
+              <div className="round-icon-with-arrow mobile-right">
+                <div className="arrow-red" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section className="section-primary-bg">
+  </div>
+
+  <div className="section without-top-spacing">
     <div className="w-layout-blockcontainer base-container w-container">
-      <div className="testimonials-block-home-2">
+      <div className="home-page-blog-wrapper">
         <div
-          data-w-id="8a0b74d9-9ebf-c544-ab77-b43e7e8c76a4"
-          style={{ opacity: 0 }}
-          className="section-subtitle"
-        >
-          <div className="subtitle-dot color-white" />
-          <h6 className="subtitle text-white">Hear from our happy clients</h6>
-        </div>
-        <div
-          data-delay={4000}
-          data-animation="slide"
-          className="sider-testimonials w-slider"
-          data-autoplay="false"
-          data-easing="linear"
-          style={{ opacity: 0 }}
-          data-hide-arrows="false"
-          data-disable-swipe="false"
-          data-w-id="d27f4f84-4766-7081-253f-8c3794ee7ad4"
-          data-autoplay-limit={0}
-          data-nav-spacing={3}
-          data-duration={500}
-          data-infinite="true"
-        >
-          <div className="slider-mask-testimonials w-slider-mask">
-            <div className="w-slide">
-              <div className="testimonial-content">
-                "Loti's innovative approach transformed our vision into reality.
-                Their dedication to excellence and creative expertise resulted
-                in a product that exceeded our expectations."
-              </div>
-              <div className="testimonial-name-wrapper">
-                <h6 className="testimonial-name text-white">ryan westervelt</h6>
-                <p className="paragraph-large text-white">
-                  Founder of Aquamarine Studio
-                </p>
-              </div>
-            </div>
-            <div className="w-slide">
-              <div className="testimonial-content">
-                "The design is professional, giving my portfolio a polished look
-                that impresses clients and colleagues alike. It's easy to
-                customize, making it a perfect fit for any creative
-                professional."
-              </div>
-              <div className="testimonial-name-wrapper">
-                <h6 className="testimonial-name text-white">Ryan Mitchell</h6>
-                <p className="paragraph-large text-white">
-                  Marketing Manager in Horizon Media Solutions
-                </p>
-              </div>
-            </div>
-            <div className="w-slide">
-              <div className="testimonial-content">
-                "The user-friendly interface and simple customization options
-                allowed me to create a stunning portfolio without any hassle.
-                It's a versatile template that adapts to my style and projects."
-              </div>
-              <div className="testimonial-name-wrapper">
-                <h6 className="testimonial-name text-white">Ethan Reynolds</h6>
-                <p className="paragraph-large text-white">
-                  Software Engineer in Quantum Innovations Ltd.
-                </p>
-              </div>
-            </div>
-            <div className="w-slide">
-              <div className="testimonial-content">
-                "The clean layout and attention to detail make my work stand
-                out, leaving a lasting impact on potential clients and
-                employers. It's the perfect tool for anyone about making a
-                introduction."
-              </div>
-              <div className="testimonial-name-wrapper">
-                <h6 className="testimonial-name text-white">Olivia Morgan</h6>
-                <p className="paragraph-large text-white">
-                  Graphic Designer Creative Visions Studio
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="round-icon-with-arrow left-arrow w-slider-arrow-left">
-            <div className="arrow-red left" />
-          </div>
-          <div className="round-icon-with-arrow w-slider-arrow-right">
-            <div className="arrow-red" />
-          </div>
-          <div className="hidden w-slider-nav w-round w-num" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="section-without-spacing">
-    <div className="work-process-wrapper">
-      <div className="our-process-content-wrapper">
-        <div
-          data-w-id="093f0cb1-397e-e63a-c17d-0c18f84afff8"
-          style={{ opacity: 0 }}
+          data-w-id="b5b2d563-f00f-4a2c-0f99-6536dad9e4c4"
+          style={{ opacity: 1 }}
           className="section-subtitle"
         >
           <div className="subtitle-dot" />
-          <h6 className="subtitle">the process</h6>
+          <h6 className="subtitle">Why Loti?</h6>
         </div>
-        <div className="work-step-content-wrapper">
-          <h2
-            id="provide-assistance"
-            data-w-id="093f0cb1-397e-e63a-c17d-0c18f84afffd"
-            style={{ opacity: 0 }}
-            className="work-step-title"
-          >
-            Each endeavor begins with a spark of creative inspiration.
-          </h2>
+        <div className="top-title-row">
           <p
-            data-w-id="093f0cb1-397e-e63a-c17d-0c18f84affff"
-            style={{ opacity: 0 }}
-            className="text-dark"
+            data-w-id="4e6d6711-5af3-aed7-7219-92cd96490bfd"
+            style={{ opacity: 1 }}
+            className="text-dark-left"
           >
-            Transforming your concepts into exceptional digital products
-            characterized by innovation and contemporary flair is our forte.
+            "Fueling success through innovation, one achievement at a time."
           </p>
-          <p
-            data-w-id="093f0cb1-397e-e63a-c17d-0c18f84b0001"
-            style={{ opacity: 0 }}
-            className="mt-25"
-          >
-            Specializing in creative minimalist projects, our extensive
-            experience defines our professional expertise. Explore our
-            portfolio, detailed with descriptions, and secure your order today
-            to witness your ideas materialize into remarkable digital solutions!
-          </p>
-        </div>
-      </div>
-      <div className="work-steps-grid-wrapper">
-        <div
-          data-w-id="093f0cb1-397e-e63a-c17d-0c18f84b0004"
-          style={{ opacity: 0 }}
-          className="work-step-text-info"
-        >
-          <p className="text-primary-color">(001)</p>
-          <div className="step-description">
-            <h3>Market analysis</h3>
-            <p>
-              Our market analysis deciphers trends, identifies growth avenues,
-              and charts the path to success.
-            </p>
-          </div>
-        </div>
-        <div
-          data-w-id="093f0cb1-397e-e63a-c17d-0c18f84b000c"
-          style={{ opacity: 0 }}
-          className="work-step-text-info"
-        >
-          <p className="text-primary-color">(002)</p>
-          <div className="step-description">
-            <h3>Solution search</h3>
-            <p>
-              Our Solution Search service navigates through options, pinpointing
-              the ideal answers for your needs.
-            </p>
-          </div>
-        </div>
-        <div
-          data-w-id="093f0cb1-397e-e63a-c17d-0c18f84b0014"
-          style={{ opacity: 0 }}
-          className="work-step-text-info"
-        >
-          <p className="text-primary-color">(003)</p>
-          <div className="step-description">
-            <h3>Creative idea</h3>
-            <p>
-              At Creative Idea, we cultivate innovation, birthing unique
-              concepts that redefine possibilities.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="section">
-    <div className="w-layout-blockcontainer base-container w-container">
-      <div className="awards-wrapper-home-2">
-        <div className="column-left-wrapper">
-          <div
-            data-w-id="222a8f58-2b0b-b1c7-b768-1ea028da7587"
-            style={{ opacity: 0 }}
-            className="section-subtitle"
-          >
-            <div className="subtitle-dot" />
-            <h6 className="subtitle">Awards</h6>
-          </div>
-          <div className="background-video-small">
-            <div
-              data-poster-url="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a92b8f1268bc630b104194_Woman Model 1080p-poster-00001.jpg"
-              data-video-urls="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a92b8f1268bc630b104194_Woman Model 1080p-transcode.mp4,https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a92b8f1268bc630b104194_Woman Model 1080p-transcode.webm"
-              data-autoplay="true"
-              data-loop="true"
-              data-wf-ignore="true"
-              className="awards-video w-background-video w-background-video-atom"
-            >
-              <video
-                id="37f50e61-1533-5bee-f304-02d427084b5a-video"
-                autoPlay=""
-                loop=""
-                style={{
-                  backgroundImage:
-                    'url("https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a92b8f1268bc630b104194_Woman Model 1080p-poster-00001.jpg")'
-                }}
-                muted=""
-                playsInline=""
-                data-wf-ignore="true"
-                data-object-fit="cover"
+          <div className="flex-content-wrapper">
+            <div className="wrapper-right">
+              <h2
+                id="provide-assistance"
+                data-w-id="36334b36-b414-2764-ccee-0fe71df74190"
+                style={{ opacity: 1 }}
               >
-                <source
-                  src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a92b8f1268bc630b104194_Woman Model 1080p-transcode.mp4"
-                  data-wf-ignore="true"
-                />
-                <source
-                  src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a92b8f1268bc630b104194_Woman Model 1080p-transcode.webm"
-                  data-wf-ignore="true"
-                />
-              </video>
-              <a
-                href="/portfolio-1"
-                data-w-id="fd8980bb-7a16-6db4-3334-8521c86ae9b0"
-                className="button-secondary w-button"
+                Our specialty revolves around innovative, minimalist projects.
+              </h2>
+              <p
+                data-w-id="36334b36-b414-2764-ccee-0fe71df74192"
+                style={{ opacity: 1 }}
               >
-                All Projects <span className="button-number">(24)</span>
-                <span className="span-image-arrow"> </span>
-              </a>
+                Crafting innovative, sleek projects is our expertise. We
+                specialize in delivering minimalist designs that redefine the
+                way we engage with digital solutions. Our focus on innovation
+                drives our commitment to creating impactful, clean, and
+                sophisticated projects that stand out in their simplicity.
+              </p>
             </div>
           </div>
         </div>
-        <div className="column-right-wrapper">
-          <h2
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b3f8"
-            style={{ opacity: 0 }}
-            className="award-title"
-          >
-            Our digital agency boasts numerous accolades, a testament to our
-            creative excellence.
-          </h2>
+        <div
+          id="w-node-b5b2d563-f00f-4a2c-0f99-6536dad9e4d4-33c0ffb8"
+          data-w-id="b5b2d563-f00f-4a2c-0f99-6536dad9e4d4"
+          style={{ opacity: 1 }}
+          className="bottom-counter-row"
+        >
           <div
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b3fa"
-            style={{ opacity: 0 }}
-            className="award-list-item first-child"
+            id="w-node-f7d7dd96-2457-f2e6-24e3-ae7d1fe1b771-33c0ffb8"
+            data-w-id="f7d7dd96-2457-f2e6-24e3-ae7d1fe1b771"
+            style={{ opacity: 1 }}
+            className="counter-block"
           >
-            <h3>Digital Awards</h3>
-            <p className="award-text-grey">2023</p>
+            <img
+              src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a94295a4ed2fd76c51f575_Rectangles%20with%20star.webp"
+              loading="lazy"
+              alt="Icon"
+              className="counter-image"
+            />
+            <div className="counter-info">
+              <div className="text-number">960+</div>
+              <div className="counter-text-wrapper">
+                <p className="counter-description">Excellent works</p>
+                <p className="counter-description">(001)</p>
+              </div>
+            </div>
           </div>
           <div
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b3ff"
-            style={{ opacity: 0 }}
-            className="award-list-item"
+            id="w-node-_3a605382-58f5-7f49-183b-5adc3d8e8d0f-33c0ffb8"
+            data-w-id="3a605382-58f5-7f49-183b-5adc3d8e8d0f"
+            style={{ opacity: 1 }}
+            className="counter-block"
           >
-            <h3>Air Forum Award</h3>
-            <p className="award-text-grey">2023</p>
+            <img
+              src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a9453dcc0efc057ecb2ecc_Rounds%20with%20icon.webp"
+              loading="lazy"
+              alt="Counter Image"
+              className="counter-image"
+            />
+            <div className="counter-info">
+              <div className="text-number">1390+</div>
+              <div className="counter-text-wrapper">
+                <p className="counter-description">Happy customers</p>
+                <p className="counter-description">(002)</p>
+              </div>
+            </div>
           </div>
           <div
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b404"
-            style={{ opacity: 0 }}
-            className="award-list-item"
+            id="w-node-_46e50212-72ed-c867-38b8-efef60171ce4-33c0ffb8"
+            data-w-id="46e50212-72ed-c867-38b8-efef60171ce4"
+            style={{ opacity: 1 }}
+            className="counter-block"
           >
-            <h3>Golden Branch</h3>
-            <p className="award-text-grey">2023</p>
-          </div>
-          <div
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b409"
-            style={{ opacity: 0 }}
-            className="award-list-item"
-          >
-            <h3>UIA Gold Medal</h3>
-            <p className="award-text-grey">2022</p>
-          </div>
-          <div
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b40e"
-            style={{ opacity: 0 }}
-            className="award-list-item"
-          >
-            <h3>Creative Studio Award</h3>
-            <p className="award-text-grey">2022</p>
-          </div>
-          <div
-            data-w-id="94db99aa-6153-98d6-57c2-687df468b413"
-            style={{ opacity: 0 }}
-            className="award-list-item"
-          >
-            <h3>Solution Award</h3>
-            <p className="award-text-grey">2022</p>
+            <img
+              src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65a945573ef66f47bcbc28b1_Rectangles%20with%20icon.webp"
+              loading="lazy"
+              alt="Counter Image"
+              className="counter-image"
+            />
+            <div className="counter-info">
+              <div className="text-number">14+</div>
+              <div className="counter-text-wrapper">
+                <p className="counter-description">
+                  Successful years experience
+                </p>
+                <p className="counter-description">(003)</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="gradient-figure-6" />
       </div>
     </div>
-  </section>
+  </div>
+
   <section className="section without-top-spacing">
     <div className="w-layout-blockcontainer base-container w-container">
       <div className="top-title-wrapper">
         <div
-          data-w-id="b31a2946-e300-4f55-5b6a-2c5f64180218"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903bb"
+          style={{ opacity: 1 }}
           className="section-subtitle"
         >
           <div className="subtitle-dot" />
@@ -1027,8 +704,8 @@ const About = () => {
         </div>
         <div className="column-right-wrapper">
           <h2
-            data-w-id="b31a2946-e300-4f55-5b6a-2c5f64180224"
-            style={{ opacity: 0 }}
+            data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903c0"
+            style={{ opacity: 1 }}
             className="team-title-home-2"
           >
             Meet our professional creators
@@ -1037,8 +714,8 @@ const About = () => {
       </div>
       <div className="team-wrapper-grid">
         <div
-          data-w-id="2a08d1c1-ecd5-c37d-2354-f3ec3a62faf0"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903c3"
+          style={{ opacity: 1 }}
           className="team-member-item"
         >
           <img
@@ -1054,8 +731,8 @@ const About = () => {
           </div>
         </div>
         <div
-          data-w-id="2a08d1c1-ecd5-c37d-2354-f3ec3a62faf7"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903ca"
+          style={{ opacity: 1 }}
           className="team-member-item"
         >
           <img
@@ -1070,8 +747,8 @@ const About = () => {
           </div>
         </div>
         <div
-          data-w-id="2a08d1c1-ecd5-c37d-2354-f3ec3a62fafe"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903d1"
+          style={{ opacity: 1 }}
           className="team-member-item"
         >
           <img
@@ -1082,12 +759,12 @@ const About = () => {
           />
           <div className="team-name-wrapper">
             <h4>Maren Aminoff</h4>
-            <p>Main Office Manager</p>
+            <p>Main Office Director</p>
           </div>
         </div>
         <div
-          data-w-id="2a08d1c1-ecd5-c37d-2354-f3ec3a62fb05"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903d8"
+          style={{ opacity: 1 }}
           className="team-member-item"
         >
           <img
@@ -1102,8 +779,8 @@ const About = () => {
           </div>
         </div>
         <div
-          data-w-id="2a08d1c1-ecd5-c37d-2354-f3ec3a62fb0c"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903df"
+          style={{ opacity: 1 }}
           className="team-member-item"
         >
           <img
@@ -1118,8 +795,8 @@ const About = () => {
           </div>
         </div>
         <div
-          data-w-id="2a08d1c1-ecd5-c37d-2354-f3ec3a62fb13"
-          style={{ opacity: 0 }}
+          data-w-id="c5522db6-b7ce-3d88-4b95-b78c4d1903e6"
+          style={{ opacity: 1 }}
           className="team-member-item"
         >
           <img
@@ -1137,13 +814,14 @@ const About = () => {
     </div>
     <div className="gradient-figure-7" />
   </section>
+
   <section className="section without-top-spacing">
     <div className="w-layout-blockcontainer base-container w-container">
       <div className="top-blog-wrapper">
         <div className="blog-wrapper-left">
           <div
-            data-w-id="aa1306ac-0b9f-5ceb-3ed4-6f2d1708db2e"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e935"
+            style={{ opacity: 1 }}
             className="section-subtitle mb-30"
           >
             <div className="subtitle-dot" />
@@ -1151,15 +829,15 @@ const About = () => {
           </div>
           <h2
             id="provide-assistance"
-            data-w-id="60876d28-0436-c3f5-de7d-0fa500368838"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e939"
+            style={{ opacity: 1 }}
             className="mb-25"
           >
-            What’s new in Loti Studio?
+            What’s new in Loti studio?
           </h2>
           <p
-            data-w-id="60876d28-0436-c3f5-de7d-0fa50036883a"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e93b"
+            style={{ opacity: 1 }}
           >
             Dive into a treasure trove of industry trends, expert opinions, and
             the latest news in our blog.
@@ -1168,8 +846,8 @@ const About = () => {
         <div className="blog-button-wrapper">
           <a
             href="/blog"
-            data-w-id="5e250d7a-7ccf-3f94-910f-7192b6fadf49"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e93e"
+            style={{ opacity: 1 }}
             className="button-primary w-button"
           >
             View All <span className="button-number">(35)</span>
@@ -1180,8 +858,8 @@ const About = () => {
       <div className="blog-grid-wrapper-home-2 w-dyn-list">
         <div role="list" className="blog-grid w-dyn-items">
           <div
-            data-w-id="06b822d4-4c3e-441d-e828-74085030e086"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e946"
+            style={{ opacity: 1 }}
             role="listitem"
             className="blog-item w-dyn-item"
           >
@@ -1190,17 +868,11 @@ const About = () => {
               className="blog-image-link-wrapper w-inline-block"
             >
               <img
-                alt="Portfolio Collection Image"
+                alt="Blog Image"
                 loading="lazy"
                 src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash.jpg"
                 sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 30vw, (max-width: 1919px) 370px, 560px"
-                srcSet="
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-500.jpg   500w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-800.jpg   800w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-1080.jpg 1080w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-1600.jpg 1600w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash.jpg        1920w
-            "
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-500.jpg 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-800.jpg 800w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-1080.jpg 1080w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash-p-1600.jpg 1600w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0a045c65b8862406809c7_joshua-rondeau-X2hS-vG5LS0-unsplash.jpg 1920w"
                 className="blog-image"
               />
             </a>
@@ -1231,8 +903,8 @@ const About = () => {
             </div>
           </div>
           <div
-            data-w-id="06b822d4-4c3e-441d-e828-74085030e086"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e946"
+            style={{ opacity: 1 }}
             role="listitem"
             className="blog-item w-dyn-item"
           >
@@ -1241,16 +913,11 @@ const About = () => {
               className="blog-image-link-wrapper w-inline-block"
             >
               <img
-                alt="Portfolio Collection Image"
+                alt="Blog Image"
                 loading="lazy"
                 src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1).jpg"
                 sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 30vw, (max-width: 1919px) 370px, 560px"
-                srcSet="
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1)-p-500.jpg   500w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1)-p-800.jpg   800w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1)-p-1080.jpg 1080w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1).jpg        1920w
-            "
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1)-p-500.jpg 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1)-p-800.jpg 800w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1)-p-1080.jpg 1080w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65c0970116a827308246eaea_pexels-pnw-production-9219063%20(1).jpg 1920w"
                 className="blog-image"
               />
             </a>
@@ -1282,8 +949,8 @@ const About = () => {
             </div>
           </div>
           <div
-            data-w-id="06b822d4-4c3e-441d-e828-74085030e086"
-            style={{ opacity: 0 }}
+            data-w-id="453e9243-43d1-9f95-63a8-0ca04588e946"
+            style={{ opacity: 1 }}
             role="listitem"
             className="blog-item w-dyn-item"
           >
@@ -1292,16 +959,11 @@ const About = () => {
               className="blog-image-link-wrapper w-inline-block"
             >
               <img
-                alt="Portfolio Collection Image"
+                alt="Blog Image"
                 loading="lazy"
                 src="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1).jpg"
                 sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 47vw, (max-width: 1279px) 30vw, (max-width: 1919px) 370px, 560px"
-                srcSet="
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1)-p-500.jpg   500w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1)-p-800.jpg   800w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1)-p-1080.jpg 1080w,
-              https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1).jpg        1920w
-            "
+                srcSet="https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1)-p-500.jpg 500w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1)-p-800.jpg 800w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1)-p-1080.jpg 1080w, https://assets-global.website-files.com/65a6e5c1e8f5596f33c0ff58/65bd1177f07e68a9df97eb6d_james-genchi-U8RNJeZsV8o-unsplash%20(1).jpg 1920w"
                 className="blog-image"
               />
             </a>
@@ -1336,6 +998,7 @@ const About = () => {
       </div>
     </div>
   </section>
+
   <div className="section-contact-us">
     <div className="base-container w-container">
       <div className="subscribe-wrap">
@@ -1366,161 +1029,17 @@ const About = () => {
             data-w-id="e3a0e73d-5f7c-9908-ee35-2c53876de4ab"
             className="button-primary-white w-button"
           >
-            Discuss a project<span className="span-image-arrow red"> </span>
+            Discuss a project<span className="span-image-arrow red"></span>
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div className="footer">
-    <div className="base-container w-container">
-      <div className="footer-wrapper">
-        <div
-          data-w-id="34248195-eb1f-bec5-02ef-9358f31f91f6"
-          className="social-link-footer-wrapper"
-        >
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            className="social-link w-inline-block"
-          >
-            <img
-              src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65ae880796beb6710e5e487c_instagram.svg"
-              loading="lazy"
-              width={28}
-              alt="Soc icon"
-            />
-          </a>
-          <div className="text-links-wrapper">
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              className="footer-social-main-link"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              className="footer-text-link"
-            >
-              @lotistudioexample
-            </a>
-          </div>
-        </div>
-        <div
-          data-w-id="85f1b491-ecb1-ae14-9de8-004b38d3acf3"
-          className="social-link-footer-wrapper"
-        >
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            className="social-link w-inline-block"
-          >
-            <img
-              src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65ae8b7ecf7297f1e55172ce_Twitter.svg"
-              loading="lazy"
-              width={26}
-              alt="Soc icon"
-            />
-          </a>
-          <div className="text-links-wrapper">
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              className="footer-social-main-link"
-            >
-              Twitter
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              className="footer-text-link"
-            >
-              @lotistudioexample
-            </a>
-          </div>
-        </div>
-        <div
-          data-w-id="b65a474b-98e8-5925-e4fb-eb41f65e62db"
-          className="social-link-footer-wrapper"
-        >
-          <a
-            href="https://dribbble.com/"
-            target="_blank"
-            className="social-link w-inline-block"
-          >
-            <img
-              src="https://assets-global.website-files.com/65a6e5c0e8f5596f33c0ff0a/65ae8c1de57a701e62d30e89_dribbble.svg"
-              loading="lazy"
-              width={28}
-              alt="Soc icon"
-            />
-          </a>
-          <div className="text-links-wrapper">
-            <a
-              href="https://dribbble.com/"
-              target="_blank"
-              className="footer-social-main-link"
-            >
-              Dribbble
-            </a>
-            <a
-              href="https://dribbble.com/"
-              target="_blank"
-              className="footer-text-link"
-            >
-              @lotistudioexample
-            </a>
-          </div>
-        </div>
-      </div>
-      <div
-        data-w-id="daf981fd-9b17-a0fb-7466-2c35634f2ca5"
-        className="footer-bottom-wrapper"
-      >
-        <div className="footer-copyright">
-          © Loti. All Rights Reserved 2024.
-          <a href="/templates/licensing" className="footer-link-copyright">
-            Licensing
-          </a>
-        </div>
-        <div className="footer-rights-wrapper">
-          <div className="footer-rights">
-            <a
-              href="https://wcopilot.com/templates"
-              target="_blank"
-              className="footer-copyright-link"
-            >
-              Template
-            </a>
-            by
-            <a
-              href="https://wcopilot.com/"
-              target="_blank"
-              className="footer-copyright-link"
-            >
-              wCopilot.
-            </a>
-          </div>
-          <div className="footer-rights">
-            Powered by
-            <a
-              href="https://webflow.com/"
-              target="_blank"
-              className="footer-copyright-link last"
-            >
-              Webflow
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="footer-gradient" />
-  </div>
-  <div className="hire-popup"></div>
-</>
 
+  
+  
+  
+    </main>
   );
 };
 

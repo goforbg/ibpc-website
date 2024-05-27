@@ -59,13 +59,11 @@ export default function MyDocument () {
             src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65a6e5c0e8f5596f33c0ff0a"
             type="text/javascript"
             integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-            crossOrigin="anonymous"
-          />
-          <script
-            src="https://d3e54v103j8qbb.cloudfront.net/js/webflow.js?site=65a6e5c0e8f5596f33c0ff0a"
-            type="text/javascript"
-          />
-          <script src="/public/global.js" />
+            crossorigin="anonymous"
+          >
+          </script>
+          <script src="/global.js" ></script>
+          
         </body>
       </Html>
     );
