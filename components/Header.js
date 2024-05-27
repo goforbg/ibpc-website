@@ -114,19 +114,10 @@ const Header = () => {
                   <div className="nav-dropdown-list-column">
                     <div className="nav-dropdown-link-wrapper">
                       <Link href="/" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Home 1
-                      </Link>
-                      <Link href="/" aria-current="page" className="nav-dropdown-link w-dropdown-link w--current">
-                        <span className="nav-dropdown-dot"> </span>Home 2
-                      </Link>
-                      <Link href="/" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Home 3
+                        <span className="nav-dropdown-dot"> </span>Home
                       </Link>
                       <Link href="/about" className="nav-dropdown-link w-dropdown-link">
                         <span className="nav-dropdown-dot"> </span>About Us
-                      </Link>
-                      <Link href="/our-team" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Our Team
                       </Link>
                       <Link href="/pricing" className="nav-dropdown-link w-dropdown-link">
                         <span className="nav-dropdown-dot"> </span>Pricing
@@ -144,12 +135,6 @@ const Header = () => {
                       <Link href="/our-services-1" className="nav-dropdown-link w-dropdown-link">
                         <span className="nav-dropdown-dot"> </span>Our Services 1
                       </Link>
-                      <Link href="/our-services-2" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Our Services 2
-                      </Link>
-                      <Link href="/our-services-3" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Our Services 3
-                      </Link>
                       <div className="collection-list-wrapper w-dyn-list">
                         <div role="list" className="w-dyn-items">
                           <div role="listitem" className="w-dyn-item">
@@ -166,33 +151,11 @@ const Header = () => {
                       <Link href="/portfolio-1" className="nav-dropdown-link w-dropdown-link">
                         <span className="nav-dropdown-dot"> </span>Portfolio 1
                       </Link>
-                      <Link href="/portfolio-2" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Portfolio 2
-                      </Link>
-                      <Link href="/portfolio-3" className="nav-dropdown-link w-dropdown-link">
-                        <span className="nav-dropdown-dot"> </span>Portfolio 3
-                      </Link>
-                      <div className="collection-list-wrapper w-dyn-list">
-                        <div role="list" className="w-dyn-items">
-                          <div role="listitem" className="w-dyn-item">
-                            <Link href="/projects/red-highlights" className="nav-dropdown-link w-dropdown-link" target="_blank">
-                              <span className="nav-dropdown-dot"> </span>Portfolio Details
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
+                    
                       <Link href="/blog" className="nav-dropdown-link w-dropdown-link">
                         <span className="nav-dropdown-dot"> </span>Blog
                       </Link>
-                      <div className="collection-list-wrapper w-dyn-list">
-                        <div role="list" className="w-dyn-items">
-                          <div role="listitem" className="w-dyn-item">
-                            <Link href="/blog-posts/fashion-forward-trends-in-creative-portfolio-design" className="nav-dropdown-link w-dropdown-link" target="_blank">
-                              <span className="nav-dropdown-dot"> </span>Blog details
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
+                    
                     </div>
                   </div>
                 </nav>
