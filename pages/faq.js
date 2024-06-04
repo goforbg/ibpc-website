@@ -1,8 +1,9 @@
 import React from "react";
+import { getAllFaqs } from '../lib/parseMarkdown';
 
 
 
-const Faq = () => {
+const Faq = ({ faqs }) => {
   return (
     <div>
     <form action="/search" className="search-desktop w-form">
@@ -69,6 +70,15 @@ const Faq = () => {
       <div className="base-container w-container">
         <div className="faq-wrapper-large without-bottom-spacing">
           <div className="faq-wrapper-medium">
+
+          <ul>
+            {faqs.map((faq) => (
+              <li key={faq.id}>
+                <h2>{faq.title}</h2>
+                <p>{faq.content}</p>
+              </li>
+            ))}
+          </ul>
           
             <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd4d" className="dropdown-item w-dropdown">
               <div className="accordion-toggle-2 w-dropdown-toggle">
@@ -180,6 +190,15 @@ const Faq = () => {
 
 )
 
+}
+
+export async function getStaticProps() {
+  const faqs = getAllFaqs();
+  return {
+    props: {
+      faqs,
+    },
+  };
 }
 
 
