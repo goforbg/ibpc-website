@@ -43,14 +43,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "FAQs"
-        name: "faqs"
-        folder: "content/faqs"
-        create: true
-        slug: "{{slug}}"
-        fields:
-          - { label: "Question", name: "question", widget: "string" }
-          - { label: "Answer", name: "answer", widget: "markdown" }
       - label: "Testimonials"
         name: "testimonials"
         file: "content/testimonials.md"
@@ -86,3 +78,12 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+  - label: "FAQs"
+    name: "faqs"
+    folder: "content/faqs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Question", name: "question", widget: "string" }
+      - { label: "Answer", name: "answer", widget: "markdown" }
