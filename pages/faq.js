@@ -95,15 +95,7 @@ const Faq = (faqs) => {
       <div className="base-container w-container">
         <div className="faq-wrapper-large without-bottom-spacing">
           <div className="faq-wrapper-medium">
-          <ul>
-        {faqs.map((faq, index) => (
-              <li key={index}>
-                <h2>{faq.question} </h2>
-                <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
-              </li>
-            ))}
-          </ul>
-            
+          
             <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd4d" className="dropdown-item w-dropdown">
               <div className="accordion-toggle-2 w-dropdown-toggle">
                 <h4 className="accordion-title-2">How much are your services?</h4>
