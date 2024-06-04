@@ -1,6 +1,34 @@
 import React from "react";
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
 
-const Faq = () => {
+export async function getStaticProps() {
+  const files = fs.readdirSync(path.join('content/faqs'));
+
+  const faqs = await Promise.all(files.map(async (filename) => {
+    const fileContent = fs.readFileSync(path.join('content/faqs', filename), 'utf-8');
+    const { data, content } = matter(fileContent);
+
+    const processedContent = await remark().use(html).process(content);
+    const contentHtml = processedContent.toString();
+
+    return {
+      question: data.question,
+      answer: contentHtml,
+    };
+  }));
+
+  return {
+    props: {
+      faqs,
+    },
+  };
+}
+
+const Faq = (faqs) => {
   return (
     <div>
     <form action="/search" className="search-desktop w-form">
@@ -67,6 +95,15 @@ const Faq = () => {
       <div className="base-container w-container">
         <div className="faq-wrapper-large without-bottom-spacing">
           <div className="faq-wrapper-medium">
+          <ul>
+        {faqs.map((faq, index) => (
+              <li key={index}>
+                <h2>{faq.question}</h2>
+                <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
+              </li>
+            ))}
+          </ul>
+            
             <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd4d" className="dropdown-item w-dropdown">
               <div className="accordion-toggle-2 w-dropdown-toggle">
                 <h4 className="accordion-title-2">How much are your services?</h4>
@@ -79,6 +116,8 @@ const Faq = () => {
                   detailed descriptions and order for yourself!</p>
               </nav>
             </div>
+            
+            
             <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd56" className="dropdown-item w-dropdown">
               <div className="accordion-toggle-2 w-dropdown-toggle">
                 <h4 className="accordion-title-2">How do you get inspired?</h4>
