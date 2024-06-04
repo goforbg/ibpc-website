@@ -81,9 +81,6 @@ const Header = () => {
                     <Link href="/about" className="nav-dropdown-link w-dropdown-link">
                       <span className="nav-dropdown-dot"> </span>About Us
                     </Link>
-                    <Link href="/our-team" className="nav-dropdown-link w-dropdown-link">
-                      <span className="nav-dropdown-dot"> </span>Our Team
-                    </Link>
                     <Link href="/pricing" className="nav-dropdown-link w-dropdown-link">
                       <span className="nav-dropdown-dot"> </span>Pricing
                     </Link>
@@ -96,8 +93,13 @@ const Header = () => {
                   </div>
                 </nav>
               </div>
-              <Link href="/our-services-1" className="nav-link w-nav-link">Services</Link>
+              <Link href="/our-services-1" className="nav-link w-nav-link">
+                Services
+                </Link>
+              
               <Link href="/portfolio-1" className="nav-link w-nav-link">Portfolio</Link>
+
+              
               <div
                 data-hover="true"
                 data-delay="0"
@@ -138,7 +140,7 @@ const Header = () => {
                       <div className="collection-list-wrapper w-dyn-list">
                         <div role="list" className="w-dyn-items">
                           <div role="listitem" className="w-dyn-item">
-                            <Link href="/services/art" className="nav-dropdown-link w-dropdown-link" target="_blank">
+                            <Link href="/services-art" className="nav-dropdown-link w-dropdown-link" target="_blank">
                               <span className="nav-dropdown-dot"> </span>Service Details
                             </Link>
                           </div>
@@ -183,6 +185,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      
     </header>
   );
 };
