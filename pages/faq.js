@@ -71,41 +71,21 @@ const Faq = ({ faqs }) => {
         <div className="faq-wrapper-large without-bottom-spacing">
           <div className="faq-wrapper-medium">
 
-          <ul>
-            {faqs.map((faq) => (
-              <li key={faq.id}>
-                <h2>{faq.title}</h2>
-                <p>{faq.content}</p>
-              </li>
-            ))}
-          </ul>
           
-            <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd4d" className="dropdown-item w-dropdown">
+          {faqs.map((faq) => (
+            <div  data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd4d" className="dropdown-item w-dropdown">
               <div className="accordion-toggle-2 w-dropdown-toggle">
                 <h4 className="accordion-title-2">How much are your services?</h4>
                 <div className="accordion-icon-small"></div>
               </div>
               <nav className="accordion-list-medium w-dropdown-list">
-                <p className="accordion-list-content-2">We have transform your ideas into remarkable digital
-                  products with an innovative and contemporary style. We specialize in creative minimalist
-                  projects. We have many years of experience in the profession. View our portfolio with
-                  detailed descriptions and order for yourself!</p>
+                <p className="accordion-list-content-2">{faq.content}</p>
               </nav>
             </div>
+            ))}
             
             
-            <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd56" className="dropdown-item w-dropdown">
-              <div className="accordion-toggle-2 w-dropdown-toggle">
-                <h4 className="accordion-title-2">How do you get inspired?</h4>
-                <div className="accordion-icon-small"></div>
-              </div>
-              <nav className="accordion-list-medium w-dropdown-list">
-                <p className="accordion-list-content-2">We have transform your ideas into remarkable digital
-                  products with an innovative and contemporary style. We specialize in creative minimalist
-                  projects. We have many years of experience in the profession. View our portfolio with
-                  detailed descriptions and order for yourself!</p>
-              </nav>
-            </div>
+           
             <div data-hover="false" data-delay={0} data-w-id="78b62052-f5c9-7393-4c73-84a7b624fd5f" className="dropdown-item last-item w-dropdown">
               <div className="accordion-toggle-2 w-dropdown-toggle">
                 <h4 className="accordion-title-2">How to join the team?</h4>
