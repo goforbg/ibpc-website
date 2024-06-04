@@ -98,7 +98,7 @@ const Faq = (faqs) => {
           <ul>
         {faqs.map((faq, index) => (
               <li key={index}>
-                <h2>{faq.question}</h2>
+                <h2>{faq.question} </h2>
                 <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
               </li>
             ))}
