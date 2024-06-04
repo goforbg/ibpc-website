@@ -5,28 +5,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-export async function getStaticProps() {
-  const files = fs.readdirSync(path.join('content/faqs'));
 
-  const faqs = await Promise.all(files.map(async (filename) => {
-    const fileContent = fs.readFileSync(path.join('content/faqs', filename), 'utf-8');
-    const { data, content } = matter(fileContent);
-
-    const processedContent = await remark().use(html).process(content);
-    const contentHtml = processedContent.toString();
-
-    return {
-      question: data.question,
-      answer: contentHtml,
-    };
-  }));
-
-  return {
-    props: {
-      faqs,
-    },
-  };
-}
 
 const Faq = (faqs) => {
   return (
