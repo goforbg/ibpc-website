@@ -1006,6 +1006,7 @@ const About = () => {
           data-w-id="0e8c28d0-6e6c-3e71-662f-81bc93b7ab27"
           className="section-subtitle mb-30"
         >
+        
           <div className="subtitle-dot" />
           <h6 className="subtitle">contact us</h6>
         </div>
