@@ -1,5 +1,7 @@
 ---
-title: Project to create 5 pages
+herotitle: We Build Predictable Revenue Systems for B2B Software Companies.
+title: Inboxpirates Consulting - B2B Demand Generation Agency | Linkedin Agency 
+desc: 
 date: 2024-05-20T19:31:20.591Z
 cats:
   - description: 'Page will be created using Nextjs'

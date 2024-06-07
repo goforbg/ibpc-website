@@ -2,31 +2,42 @@ import React from 'react';
 import CustomHead from '../components/CustomHead';
 import Navbar from '../components/Navbar';
 import TestimonialsSection from '../components/TestimonialsSection';
+import { attributes, react as HomeContent } from '../content/home.md'
 
 const Home = () => {
   return (
     <main>
-      {/* <CustomHead /* >
-
-      {/* Creative Section First Section 1 */}
+       <CustomHead attributes={attributes}/>
     <div style={{ marginTop: '-100px' }}  className="banner-section home-2-banner">
     <div className="w-layout-blockcontainer base-container w-container">
       <div className="title-banner-wrapper-home-2">
+        <p className="rounded-full px-6 py-1 bg-opacity-200 text-red-500 opacity-200 font-bold">Leading B2B Demand Generation Agency</p>
         <h1
           data-w-id="8a659823-0d6c-ae32-7b3c-9442738877bc"
-          style={{ opacity: 0 }}
+          style={{ opacity: 0, marginBottom: 0, padding: 0 }}
         >
-          We specialize in the creation of distinctive digital odysseys that
-          leave a lasting impact.
+          {attributes.herotitle}
         </h1>
-        <a
-          href="/about-us"
-          data-w-id="87996365-cffc-c083-a8ab-ef6abf4b3027"
-          style={{ opacity: 0 }}
-          className="button-primary w-button"
+        <div
+          data-w-id="b58f9758-a16e-b8d9-46c2-6330a2c645ee"
+          className="dual-buttons-wrapper"
+          style={{ marginTop: 0}}
         >
-          About Loti<span className="span-image-arrow"> </span>
-        </a>
+          <a
+            href="/our-services-1"
+            data-w-id="82b10bbe-a24a-f823-8d87-e792863aac1b"
+            className="button-primary w-button"
+          >
+            Get in touch<span className="span-image-arrow"> </span>
+          </a>
+          <a
+            href="/contact-us"
+            data-w-id="e3a0e73d-5f7c-9908-ee35-2c53876de4ab"
+            className="button-primary-white w-button"
+          >
+            See how it works<span className="span-image-arrow red"> </span>
+          </a>
+        </div>
       </div>
       <div className="bottom-content-banner-wrapper">
         <div

@@ -8,10 +8,13 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+    <div className="relative">
+
       <Header />
       <Component {...pageProps} />
       <Footer/>
       
+      </div>
     </>
   );
 }
