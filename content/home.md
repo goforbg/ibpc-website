@@ -1,5 +1,6 @@
 ---
-herotitle: We Build Predictable Revenue Systems for B2B Software Companies.
+herotitle: We Build Predictable Revenue Systems For B2B Software Companies.
+pill: Inboxpirates - The B2B SaaS Marketing Agency
 title: Inboxpirates Consulting - B2B Demand Generation Agency | Linkedin Agency 
 desc: 
 date: 2024-05-20T19:31:20.591Z

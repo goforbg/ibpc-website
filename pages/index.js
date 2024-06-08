@@ -14,9 +14,10 @@ const Home = () => {
           className="banner-section home-2-banner"
         >
           <div className="w-layout-blockcontainer base-container w-container">
+          <div className="title-banner-wrapper-parent">
             <div className="title-banner-wrapper-home-2">
-              <p className="rounded-full px-6 py-1 bg-opacity-200 bg-red-500 text-red-500 opacity-200 font-bold">
-                Leading B2B Demand Generation Agency
+              <p className="pill">
+              {attributes.pill}
               </p>
               <h1
                 data-w-id="8a659823-0d6c-ae32-7b3c-9442738877bc"
@@ -34,7 +35,8 @@ const Home = () => {
                   data-w-id="82b10bbe-a24a-f823-8d87-e792863aac1b"
                   className="button-primary w-button"
                 >
-                  Book a call<span className="span-image-arrow"> </span>
+                  Book a call
+                  <span className="span-image-arrow"> </span>
                 </a>
                 <a
                   href="/contact-us"
@@ -44,6 +46,7 @@ const Home = () => {
                   Explore our process
                   <span className="span-image-arrow red"> </span>
                 </a>
+              </div>
               </div>
             </div>
             <div className="bottom-content-banner-wrapper">

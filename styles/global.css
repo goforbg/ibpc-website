@@ -8,6 +8,15 @@ html {
   font-family: sans-serif;
 }
 
+.pill {
+  background: #f8dfde;
+  color: #ff4525;
+  border-radius: 9999px;
+  width: max-content;  
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
 body {
   margin: 0;
 }
@@ -5557,12 +5566,21 @@ blockquote {
 }
 
 .title-banner-wrapper-home-2 {
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
   flex-direction: column;
   max-width: 880px;
   margin-right: auto;
   display: flex;
+}
+
+.title-banner-wrapper-parent { 
+  display: flex;
+}
+
+.testimonial-holder {
+  display: flex;
+  
 }
 
 .image-banner-left {
