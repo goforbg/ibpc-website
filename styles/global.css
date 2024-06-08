@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -10,6 +14,11 @@ body {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+header {
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
 }
 
 audio, canvas, progress, video {
@@ -4449,7 +4458,7 @@ blockquote {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 50%;
   display: grid;
 }
@@ -4979,7 +4988,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   margin-bottom: 60px;
   display: grid;
@@ -5144,7 +5153,7 @@ blockquote {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   display: grid;
 }
@@ -5364,7 +5373,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   display: flex;
 }
@@ -5828,7 +5837,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   display: grid;
 }
@@ -6275,7 +6284,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   display: grid;
 }
@@ -6745,7 +6754,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   margin-bottom: 60px;
   display: grid;
@@ -7748,7 +7757,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 30% 70%;
   grid-auto-columns: 1fr;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   display: grid;
 }
@@ -7945,7 +7954,7 @@ blockquote {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
-  align-content: start;
+  align-content: flex-start;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -14120,7 +14129,7 @@ blockquote {
   }
 
   #w-node-d3db8f6b-79b6-1428-4517-21e80bf4ffb0-33c0fffa {
-    justify-self: start;
+    justify-self: flex-start;
   }
 
   #w-node-_3e207e7a-92a6-c617-4801-57cbd488d11b-33c10018 {
@@ -14133,7 +14142,7 @@ blockquote {
   }
 
   #w-node-_5d004751-b896-5b3c-643b-403a47ef5df5-57f19439 {
-    justify-self: start;
+    justify-self: flex-start;
   }
 
   #w-node-a7fa9a01-09a7-b241-d1ea-af39d3ec71c6-ce43e316 {

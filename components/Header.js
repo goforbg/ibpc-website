@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header
-      className="header blur-md"
+      className="header"
       style={{ position: "sticky !important", top: 0, zIndex: 999 }}
     >
       <div className="navbar-container w-container">
